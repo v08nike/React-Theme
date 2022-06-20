@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('#{$font-url}/DMSans-Bold.eot');
+    src: local('DM Sans Bold'), local('DMSans-Bold'),
+        url('#{$font-url}/DMSans-Bold.eot#iefix') format('embedded-opentype'),
+        url('#{$font-url}/DMSans-Bold.woff2') format('woff2'),
+        url('#{$font-url}/DMSans-Bold.woff') format('woff'),
+        url('#{$font-url}/DMSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('#{$font-url}/DMSans-Medium.eot');
+    src: local('DM Sans Medium'), local('DMSans-Medium'),
+        url('#{$font-url}/DMSans-Medium.eot#iefix') format('embedded-opentype'),
+        url('#{$font-url}/DMSans-Medium.woff2') format('woff2'),
+        url('#{$font-url}/DMSans-Medium.woff') format('woff'),
+        url('#{$font-url}/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('#{$font-url}/DMSans-Regular.eot');
+    src: local('DM Sans Regular'), local('DMSans-Regular'),
+        url('#{$font-url}/DMSans-Regular.eot#iefix') format('embedded-opentype'),
+        url('#{$font-url}/DMSans-Regular.woff2') format('woff2'),
+        url('#{$font-url}/DMSans-Regular.woff') format('woff'),
+        url('#{$font-url}/DMSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
